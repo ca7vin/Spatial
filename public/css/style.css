@@ -6117,6 +6117,10 @@ readers do not read off random characters that represent icons */
   font-family: "Spatial";
   src: url("../../public/fonts/Outfit-Regular.ttf");
 }
+@font-face {
+  font-family: "Spatial-thin";
+  src: url("../../public/fonts/Outfit-Thin.ttf");
+}
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -17235,6 +17239,27 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  font-family: "Spatial";
+}
+body header {
+  background-image: url("../../public/img/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-color: #4b4949;
+  background-blend-mode: multiply;
+}
+body header nav div .navbar-brand {
+  font-family: "Spatial-thin";
+}
+body header h1, body header .h1 {
+  letter-spacing: 5px;
+}
+body header .h1-undertitle {
+  padding: 0 10%;
+  font-family: "Spatial-thin";
 }
 
 /*# sourceMappingURL=style.css.map */
