@@ -17261,5 +17261,8 @@ body header .h1-undertitle {
   padding: 0 10%;
   font-family: "Spatial-thin";
 }
+body .sect1 {
+  padding: 0 20%;
+}
 
 /*# sourceMappingURL=style.css.map */
